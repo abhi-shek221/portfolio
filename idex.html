@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-holder" style="text-decoration: none;">
+            <div class="logo">
+                <img src="./images/per.png" alt="icon" width="58" height="58">
+            </div>
+            <div class="logo-text">Portfolio</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li><a class="tok" href="#">Home</a></li>
+                <li><a class="tok" href="#skills">Skills</a></li>
+                <li><a class="tok" href="#projects">Projects</a></li>
+                <li><a class="tok" href="#certificate">Certifications</a></li>
+                
+            </ul>
+            <a href="#" class="mobile" onclick="mobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                </svg>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container">
+            <div class="blue">
+                <h1><small>Hi, I'm</small> Abhishek Chilakalapalli</h1>
+                <p>currently pursuing  B.Tech under the stream Computer Science and Engineering (CSE) and am in my third year of study.I have a strong passion for learning new topics and exploring different areas within the field. </p>
+                <div class="links">
+                    <a href="#"><img src="./images/github.png" alt="Github" width="48"></a>
+                    <a href="#"><img src="./images/insta.webp" alt="Instagram" width="48"></a>
+                    <a href="#"><img src="./images/linkedin.png" alt="LinkedIn" width="48"></a>
+                </div>
+            </div>
+            <div class="yellow">
+                <img src="./images/per1.png" alt="Abhishek" width="100%">
+            </div>
+        </section>
+        <section id="skills" class="skills container">
+            <h2> Skills</h2>
+            <div class="holder-blue">
+                <div class="left-column">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Node.js</li>
+                    </ul>
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <h3>A bit about me</h3>
+                    <p>I hail from Tanuku, Andhra Pradesh, and my current CPA is 9.48. My journey through CSE has been both challenging and exciting, as I delve deeper into various aspects of computer science and technology.</p>
+                    <p>I have a strong passion for learning new topics and exploring different areas within the field. I am particularly curious and keen on web development. I believe that continuous learning and hands-on experience are key to growing as a developer and a problem solver.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="bento container">
+            <h2> Projects</h2>
+            <div class="bento-grid">
+                <a href="#" class="bento-item"><img src="./images/favicon.jpg" alt="BGCCI" width="100%"></a>
+                <a href="#" class="bento-item"><img src="./images/favicon.jpg" alt="Churchview" width="100%"></a>
+                <a href="#" class="bento-item"><img src="./images/favicon.jpg" alt="Harley" width="100%"></a>
+                <a href="#" class="bento-item"><img src="./images/favicon.jpg" alt="Bunbury" width="100%"></a>
+                <a href="#" class="bento-item"><img src="./images/favicon.jpg" alt="Running" width="100%"></a>
+                <a href="#" class="bento-item"><img src="./images/favicon.jpg" alt="School" width="100%"></a>
+            </div>
+        </section>
+        <section id="certificate" class="bento1 container">
+            <h2>Certifications</h2>
+            <div class="bento1-grid">
+                <a href="#" class="bento1-item"><img src="./images/cert.jpg" alt="BGCCI" width="100%"></a>
+                <a href="#" class="bento1-item"><img src="./images/cert.jpg" alt="Churchview" width="100%"></a>
+                <a href="#" class="bento1-item"><img src="./images/cert.jpg" alt="Harley" width="100%"></a>
+                <a href="#" class="bento1-item"><img src="./images/cert.jpg" alt="Bunbury" width="100%"></a>
+                <a href="#" class="bento1-item"><img src="./images/cert.jpg" alt="Running" width="100%"></a>
+                <a href="#" class="bento1-item"><img src="./images/cert.jpg" alt="School" width="100%"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Thank You!!!
+    </footer>
+   
+      <div class="foot"></div> 
+       <br>
+
+    <script>
+        function mobileMenu() {
+            var menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
